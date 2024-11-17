@@ -6,22 +6,31 @@
 | Tsaldia Hukma Cita | 5027231036 | 
 
 # Daftar Isi
-1. [Cisco Packet Tracker](#cisco-packet-tracker)
-   - [Topology](#topology-cpt)
-2. [GNS](#gns)
+1. [GNS](#gns)
    - [Topology](#topology-gns)
-
- 
-# Cisco Packet Tracker
-Pada CPT ini kami menggunakan `VLSM`
-## Topology CPT
+   - [Pembagian Subnet](#pembagian-subnet-gns)
+      - [Gabungan-1](#gabungan-1)
+      - [Gabungan-2](#gabungan-2) 
+      - [Gabungan-3](#gabungan-3)
+      - [Gabungan-4](#gabungan-4)
+      - [Gabungan-5](#gabungan-5)
+      - [Gabungan-6](#gabungan-6)
+      - [Gabungan-7](#gabungan-7)
+      - [Gabungan-8](#gabungan-8)
+      - [Gabungan-9](#gabungan-9) 
+2. [Cisco Packet Tracker](#cisco-packet-tracker)
+   - [Topology](#topology-cpt)
+   - [Rute](#rute)
+   - [Pembagian Area Subnet](#pembagian-area-subnet)
+   - [Pembagian IP](#pembagian-ip)
+   - [Tree](#tree)
 
 # GNS
 Pada GNS ini kami menggunakan `CIDR`
 ## Topology GNS
 ![RUTE](https://github.com/user-attachments/assets/6ba5e34f-0140-4f4e-8575-3f9cc83a8f68)
 
-## Pembagian Subnet
+## Pembagian Subnet GNS
 ![subnet](https://github.com/user-attachments/assets/a17fc0cf-e8f3-458a-a4a0-96cfec686cd5)
 
 ## Gabungan 1
@@ -51,19 +60,23 @@ Pada GNS ini kami menggunakan `CIDR`
 ## Gabungan 9
 ![gabungan 9](https://github.com/user-attachments/assets/483666d2-9625-4600-9179-63bb3cc95ced)
 
-# CPT (VLSM)
-## Topology CPT & Pembagian Subnet
+# Cisco Packet Tracker
+Pada CPT ini kami menggunakan `VLSM`
+## Topology CPT
 ![topologi mod4 IT33](https://github.com/user-attachments/assets/cd0b8356-f295-4c5f-a31f-2439f8c0bee1)
 
-## Tree
-![VLSM Tree drawio](https://github.com/user-attachments/assets/5057ab61-f244-4665-9dc8-199510f7706a)
-
-## Rute & Pembagian Area Subnet
+## Rute 
 ![Screenshot 2024-11-17 230749](https://github.com/user-attachments/assets/c9c42887-ef78-4a09-8f42-ef4c570c8759)
+
+## Pembagian Area Subnet
 ![Screenshot 2024-11-17 230804](https://github.com/user-attachments/assets/4af5bfd0-b1df-49ca-a3c9-6e35f73f9cf1)
 
 ## Pembagian IP
 ![Screenshot 2024-11-17 231052](https://github.com/user-attachments/assets/717b0d9b-88ab-4e7b-b9a1-475c836d7bc6)
+
+## Tree
+![VLSM Tree drawio](https://github.com/user-attachments/assets/5057ab61-f244-4665-9dc8-199510f7706a)
+
 
 
 
