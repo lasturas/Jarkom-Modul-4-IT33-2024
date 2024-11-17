@@ -51,3 +51,21 @@ Pada GNS ini kami menggunakan `CIDR`
 ## Gabungan 9
 ![gabungan 9](https://github.com/user-attachments/assets/483666d2-9625-4600-9179-63bb3cc95ced)
 
+# CPT (VLSM)
+## Topology CPT & Pembagian Subnet
+![topologi mod4 IT33](https://github.com/user-attachments/assets/cd0b8356-f295-4c5f-a31f-2439f8c0bee1)
+
+## Tree
+![topologi mod4 IT33](https://github.com/user-attachments/assets/ba6f2051-6ae2-4e1c-b0d7-0527db1a8b2c)
+
+## Rute & Pembagian Area Subnet
+![Screenshot 2024-11-17 230749](https://github.com/user-attachments/assets/c9c42887-ef78-4a09-8f42-ef4c570c8759)
+![Screenshot 2024-11-17 230804](https://github.com/user-attachments/assets/4af5bfd0-b1df-49ca-a3c9-6e35f73f9cf1)
+
+## Pembagian IP
+![Screenshot 2024-11-17 231052](https://github.com/user-attachments/assets/717b0d9b-88ab-4e7b-b9a1-475c836d7bc6)
+
+
+
+
+
