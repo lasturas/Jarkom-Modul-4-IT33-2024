@@ -56,7 +56,7 @@ Pada GNS ini kami menggunakan `CIDR`
 ![topologi mod4 IT33](https://github.com/user-attachments/assets/cd0b8356-f295-4c5f-a31f-2439f8c0bee1)
 
 ## Tree
-![topologi mod4 IT33](https://github.com/user-attachments/assets/ba6f2051-6ae2-4e1c-b0d7-0527db1a8b2c)
+![VLSM Tree drawio](https://github.com/user-attachments/assets/5057ab61-f244-4665-9dc8-199510f7706a)
 
 ## Rute & Pembagian Area Subnet
 ![Screenshot 2024-11-17 230749](https://github.com/user-attachments/assets/c9c42887-ef78-4a09-8f42-ef4c570c8759)
