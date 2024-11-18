@@ -17,7 +17,8 @@
       - [Gabungan-6](#gabungan-6)
       - [Gabungan-7](#gabungan-7)
       - [Gabungan-8](#gabungan-8)
-      - [Gabungan-9](#gabungan-9) 
+      - [Gabungan-9](#gabungan-9)
+      - [Gabungan-10](#gabungan-10) 
 2. [Cisco Packet Tracker](#cisco-packet-tracker)
    - [Topology](#topology-cpt)
    - [Rute](#rute)
@@ -40,49 +41,45 @@ Pada GNS ini kami menggunakan `CIDR`
 ![gabungan 1](https://github.com/user-attachments/assets/2658240b-ab5d-4734-8823-402208ca66a4)   
 ![image](https://github.com/user-attachments/assets/e999e14c-e567-46d4-b4f3-4e51d68b8f7a)
 
-
 ## Gabungan 2
 ![gabungan 2](https://github.com/user-attachments/assets/52968009-ef23-449e-ac21-765cde9fe7b4)   
 ![image](https://github.com/user-attachments/assets/42a1af87-6633-431a-9d70-d963a90afbcb)
-
 
 ## Gabungan 3
 ![gabungan 3](https://github.com/user-attachments/assets/561cbfc5-dee5-4d79-8b70-7ba74f3dae8c)   
 ![image](https://github.com/user-attachments/assets/76556dcf-b816-4c35-a06d-ecf296766e1b)
 
-
 ## Gabungan 4
-![gabungan 4](https://github.com/user-attachments/assets/e59a9b4f-b4b4-42aa-b209-666d12c2fdd7)   
-![image](https://github.com/user-attachments/assets/3dd66ca7-d99a-465c-b14a-da08b89cf853)
-
+![gabungan 4 revisi](https://github.com/user-attachments/assets/ab8391b1-dc19-491f-ac4f-8e8f1d2672d1)
+![image](https://github.com/user-attachments/assets/890db2e6-0a72-48f0-a5b3-5db7a59168cf)
 
 ## Gabungan 5
-![gabungan 5](https://github.com/user-attachments/assets/e891d4e9-2478-4eef-80fd-81b231bc6333)   
-![image](https://github.com/user-attachments/assets/d52b9a55-837d-42d5-8b10-d2f6b02e7650)
-
+![gabungan 5 revisi](https://github.com/user-attachments/assets/150123e6-4c46-4601-8d3c-132f72b8ead8)
+![image](https://github.com/user-attachments/assets/44a20e1e-13ef-4195-889a-f6f88353565c)
 
 ## Gabungan 6
-![gabungan 6](https://github.com/user-attachments/assets/7b9b92ae-b462-4c75-90b6-e10a942de16f)   
-![image](https://github.com/user-attachments/assets/837a9582-a1f0-4119-9b11-1b6ee82c3ac5)
-
+![gabungan 6 revisi](https://github.com/user-attachments/assets/da2cd6a0-b563-4e8e-bcb3-d8952e2be862)
+![image](https://github.com/user-attachments/assets/2a07057f-5258-4ff1-a4cd-3e91dbbd56f4)
 
 ## Gabungan 7
-![gabungan 7](https://github.com/user-attachments/assets/6cb2856f-25aa-488a-8d19-e2644910510e)   
-![image](https://github.com/user-attachments/assets/a5213f23-ea06-4988-940f-533eeafecc8f)
-
+![gabungan 7 revisi](https://github.com/user-attachments/assets/33fca1f0-7d67-4b9a-b27b-15fa2ab9a846)   
+![image](https://github.com/user-attachments/assets/4c0d492c-81c4-4aba-9b91-0d8398443159)
 
 ## Gabungan 8
-![gabungan 8](https://github.com/user-attachments/assets/89d11396-d435-4419-947a-37e52d85d9d1)   
-![image](https://github.com/user-attachments/assets/5490fc69-cc20-48aa-a7a1-4e34f64388b2)
-
+![gabungan 8 revisi](https://github.com/user-attachments/assets/868b82b9-da94-48db-9196-7a7e50a9cd6c)
+![image](https://github.com/user-attachments/assets/8443464b-77b7-493b-ae82-ed26cad985a2)
 
 ## Gabungan 9
-![gabungan 9](https://github.com/user-attachments/assets/483666d2-9625-4600-9179-63bb3cc95ced)   
-![image](https://github.com/user-attachments/assets/e4be0676-0486-4997-a44d-fe8426ba5a93)
+![gabungan 9 revisi](https://github.com/user-attachments/assets/36d8a8a3-78a8-4cc5-a368-c9cc65223fbf)   
+![image](https://github.com/user-attachments/assets/01e559c7-2213-43fb-b656-15d1b7cdc479)
+
+## Gabungan 10
+![gabungan 10 revisi](https://github.com/user-attachments/assets/cfe5ccf1-5ba7-4210-9a7a-2e24d9a379b2)   
+![image](https://github.com/user-attachments/assets/2edb4500-cddd-4a50-9ad8-496ed48e215d)
 
 
 ## Tabel Penggabungan    
-![Rute Modul4 IT33 - Penggabungan - CIDR](https://github.com/user-attachments/assets/8a87a014-6b70-43c9-9033-d8e7802e7147)
+![image](https://github.com/user-attachments/assets/96958d84-2cff-4143-946b-90f89c67f63b)
 
 
 # Cisco Packet Tracker
