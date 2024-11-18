@@ -38,15 +38,15 @@ Pada GNS ini kami menggunakan `CIDR`
 ![subnet](https://github.com/user-attachments/assets/a17fc0cf-e8f3-458a-a4a0-96cfec686cd5)
 
 ## Gabungan 1
-![gabungan 1](https://github.com/user-attachments/assets/2658240b-ab5d-4734-8823-402208ca66a4)   
+![gabungan 1](https://github.com/user-attachments/assets/755b9e6e-29e8-4240-9cda-74948547ee24)
 ![image](https://github.com/user-attachments/assets/e999e14c-e567-46d4-b4f3-4e51d68b8f7a)
 
 ## Gabungan 2
-![gabungan 2](https://github.com/user-attachments/assets/52968009-ef23-449e-ac21-765cde9fe7b4)   
+![gabungan 2](https://github.com/user-attachments/assets/64c8c8cb-b45b-4086-a70f-d09b5605c744)
 ![image](https://github.com/user-attachments/assets/42a1af87-6633-431a-9d70-d963a90afbcb)
 
 ## Gabungan 3
-![gabungan 3](https://github.com/user-attachments/assets/561cbfc5-dee5-4d79-8b70-7ba74f3dae8c)   
+![gabungan 3](https://github.com/user-attachments/assets/72e9803d-eb53-4eeb-bf03-401c0e9751bd)
 ![image](https://github.com/user-attachments/assets/76556dcf-b816-4c35-a06d-ecf296766e1b)
 
 ## Gabungan 4
