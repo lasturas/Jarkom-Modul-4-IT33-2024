@@ -25,6 +25,9 @@
    - [Pembagian IP](#pembagian-ip)
    - [Tree](#tree)
 
+# Sheets IP
+Untuk seluruh data dan tabel yang ada di repo ini dapat dilihat di dalam [link](https://docs.google.com/spreadsheets/d/1CGjlsSmBJOj25mW5FXu7kipPXtMJE57o6BJfyq0m8hg/edit?gid=580767165#gid=580767165) berikut 
+
 # GNS
 Pada GNS ini kami menggunakan `CIDR`
 ## Topology GNS
@@ -59,6 +62,10 @@ Pada GNS ini kami menggunakan `CIDR`
 
 ## Gabungan 9
 ![gabungan 9](https://github.com/user-attachments/assets/483666d2-9625-4600-9179-63bb3cc95ced)
+
+## Tabel Penggabungan    
+![Rute Modul4 IT33 - Penggabungan - CIDR](https://github.com/user-attachments/assets/8a87a014-6b70-43c9-9033-d8e7802e7147)
+
 
 # Cisco Packet Tracker
 Pada CPT ini kami menggunakan `VLSM`
