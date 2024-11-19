@@ -18,7 +18,10 @@
       - [Gabungan-7](#gabungan-7)
       - [Gabungan-8](#gabungan-8)
       - [Gabungan-9](#gabungan-9)
-      - [Gabungan-10](#gabungan-10) 
+      - [Gabungan-10](#gabungan-10)
+   - [Tabel Penggabungan](#tabel-penggabungan)
+   - [Tree GNS](#tree-gns)
+   - [Pembagian IP GNS](#pembagian-ip-gns)
 2. [Cisco Packet Tracker](#cisco-packet-tracker)
    - [Topology](#topology-cpt)
    - [Rute](#rute)
@@ -81,11 +84,13 @@ Pada GNS ini kami menggunakan `CIDR`
 ## Tabel Penggabungan    
 ![image](https://github.com/user-attachments/assets/96958d84-2cff-4143-946b-90f89c67f63b)
 
-## Tree 
+## Tree GNS
 ![TREE JARKOM 4(SHE)](https://github.com/user-attachments/assets/6244b481-7c34-4bc1-8e69-eea57b7fd02b)
 
-## Pembagian IP 
+## Pembagian IP GNS
 ![image](https://github.com/user-attachments/assets/a01afe80-ccf1-45b3-b007-39956e170e4b)
+
+
 
 # Cisco Packet Tracker
 Pada CPT ini kami menggunakan `VLSM`
