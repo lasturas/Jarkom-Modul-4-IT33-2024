@@ -84,6 +84,9 @@ Pada GNS ini kami menggunakan `CIDR`
 ## Tree 
 ![TREE JARKOM 4(SHE)](https://github.com/user-attachments/assets/6244b481-7c34-4bc1-8e69-eea57b7fd02b)
 
+## Pembagian IP 
+![image](https://github.com/user-attachments/assets/a01afe80-ccf1-45b3-b007-39956e170e4b)
+
 # Cisco Packet Tracker
 Pada CPT ini kami menggunakan `VLSM`
 ## Topology CPT
