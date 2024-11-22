@@ -659,6 +659,592 @@ Pada CPT ini kami menggunakan `VLSM`
 ## Tree
 ![VLSM Tree drawio](https://github.com/user-attachments/assets/5057ab61-f244-4665-9dc8-199510f7706a)
 
+## Konfigurasi IP
+
+### Subnet A1
+
+Hololive (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.19.73 255.255.255.252
+no shutdown
+```
+
+Holo-ID (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.74 255.255.255.252
+no shutdown
+```
+
+### Subnet A2
+
+Holo-ID (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.19.93 255.255.255.252
+no shutdown
+```
+
+AREA15 (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.94 255.255.255.252
+no shutdown
+```
+
+### Subnet A3
+
+AREA15 (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.8.1 255.255.252.0
+no shutdown
+```
+
+Moona (Device)
+```
+Interface fa0
+IP Address: 192.233.8.2
+Subnet Mask: 255.255.252.0
+Gateway: 192.233.8.1
+```
+
+Risu (Device)
+```
+Interface fa0
+IP Address: 192.233.8.3
+Subnet Mask: 255.255.252.0
+Gateway: 192.233.8.1
+```
+
+lofi (Device)
+```
+Interface fa0
+IP Address: 192.233.8.4
+Subnet Mask: 255.255.252.0
+Gateway: 192.233.8.1
+```
+
+### Subnet A4
+
+Holo-ID (Router)
+```
+enable
+configure terminal
+interface fa1/0
+ip address 192.233.19.97 255.255.255.252
+no shutdown
+```
+
+holoro (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.98 255.255.255.252
+no shutdown
+```
+
+### Subnet A5
+
+holoro (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.18.193 255.255.255.192
+no shutdown
+```
+
+Ollie (Device)
+```
+Interface fa0
+IP Address: 192.233.18.194
+Subnet Mask: 255.255.255.192
+Gateway: 192.233.18.193
+```
+
+Anya (Device)
+```
+Interface fa0
+IP Address: 192.233.18.195
+Subnet Mask: 255.255.255.192
+Gateway: 192.233.18.193
+```
+
+Reine (Device)
+```
+Interface fa0
+IP Address: 192.233.18.196
+Subnet Mask: 255.255.255.192
+Gateway: 192.233.18.193
+```
+
+### Subnet A6
+
+Holo-ID (Router)
+```
+enable
+configure terminal
+interface fa1/1
+ip address 192.233.19.101 255.255.255.252
+no shutdown
+```
+
+holoh3ro (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.102 255.255.255.252
+no shutdown
+```
+
+### Subnet A7
+
+holoh3ro (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.16.1 255.255.254.0
+no shutdown
+```
+
+Zeta (Device)
+```
+Interface fa0
+IP Address: 192.233.16.2
+Subnet Mask: 255.255.254.0
+Gateway: 192.233.16.1
+```
+
+Kaela (Device)
+```
+Interface fa0
+IP Address: 192.233.16.3
+Subnet Mask: 255.255.254.0
+Gateway: 192.233.16.1
+```
+
+Kobo (Device)
+```
+Interface fa0
+IP Address: 192.233.16.4
+Subnet Mask: 255.255.254.0
+Gateway: 192.233.16.1
+```
+
+### Subnet A8
+
+Hololive (Router)
+```
+enable
+configure terminal
+interface fa1/1
+ip address 192.233.19.105 255.255.255.252
+no shutdown
+```
+
+HoloJP (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.106 255.255.255.252
+no shutdown
+```
+
+### Subnet A9
+
+Holo-JP (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.19.65 255.255.255.248
+no shutdown
+```
+
+DEV_IS (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.66 255.255.255.248
+no shutdown
+```
+
+GEN:0 (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.67 255.255.255.248
+no shutdown
+```
+
+### Subnet A10
+
+DEV_IS (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.19.33 255.255.255.240
+no shutdown
+```
+
+Ririka_Rade (Device)
+```
+Interface fa0
+IP Address: 192.233.19.34
+Subnet Mask: 255.255.255.240
+Gateway: 192.233.19.33
+```
+
+Ao (Device)
+```
+Interface fa0
+IP Address: 192.233.19.35
+Subnet Mask: 255.255.255.240
+Gateway: 192.233.19.33
+```
+
+Hajime_Kanade (Device)
+```
+Interface fa0
+IP Address: 192.233.19.36
+Subnet Mask: 255.255.255.240
+Gateway: 192.233.19.33
+```
+
+### Subnet A11
+
+GEN:0 (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.0.1 255.255.248.0
+no shutdown
+```
+
+GEN:1 (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.0.2 255.255.248.0
+no shutdown
+```
+
+MiComet (Device)
+```
+Interface fa0
+IP Address: 192.233.0.3
+Subnet Mask: 255.255.248.0
+Gateway: 192.233.0.1
+```
+
+Sora_Robo_AZK (Device)
+```
+Interface fa0
+IP Address: 192.233.0.4
+Subnet Mask: 255.255.248.0
+Gateway: 192.233.0.1
+```
+
+### Subnet A12
+
+GEN:1 (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.14.1 255.255.254.0
+no shutdown
+```
+
+FBK_Matsuri (Device)
+```
+Interface fa0
+IP Address: 192.233.14.2
+Subnet Mask: 255.255.254.0
+Gateway: 192.233.14.1
+```
+
+Aki_Hachama (Device)
+```
+Interface fa0
+IP Address: 192.233.14.3
+Subnet Mask: 255.255.254.0
+Gateway: 192.233.14.1
+```
+
+### Subnet A13
+
+GEN:1 (Router)
+```
+enable
+configure terminal
+interface fa1/0
+ip address 192.233.19.77 255.255.255.252
+no shutdown
+```
+
+GAMERS (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.78 255.255.255.252
+no shutdown
+```
+
+### Subnet A14
+
+GAMERS (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.18.1 255.255.255.128
+no shutdown
+```
+
+Korone (Device)
+```
+Interface fa0
+IP Address: 192.233.18.2
+Subnet Mask: 255.255.255.128
+Gateway: 192.233.18.1
+```
+
+Okayu (Device)
+```
+Interface fa0
+IP Address: 192.233.18.3
+Subnet Mask: 255.255.255.128
+Gateway: 192.233.18.1
+```
+
+Mio (Device)
+```
+Interface fa0
+IP Address: 192.233.18.4
+Subnet Mask: 255.255.255.128
+Gateway: 192.233.18.1
+```
+
+### Subnet A15
+
+Hololive (Router)
+```
+enable
+configure terminal
+interface fa1/0
+ip address 192.233.19.81 255.255.255.252
+no shutdown
+```
+
+HoloEN (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.82 255.255.255.252
+no shutdown
+```
+
+### Subnet A16
+
+HoloEN (Router)
+```
+enable
+configure terminal
+interface fa1/0
+ip address 192.233.19.85 255.255.255.252
+no shutdown
+```
+
+HoloAdvent (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.86 255.255.255.252
+no shutdown
+```
+
+### Subnet A17
+
+HoloAdvent (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.19.1 255.255.255.224
+no shutdown
+```
+
+FuwaMoco (Device)
+```
+Interface fa0
+IP Address: 192.233.19.2
+Subnet Mask: 255.255.224.0
+Gateway: 192.233.19.1
+```
+
+Shiori_Nerissa (Device)
+```
+Interface fa0
+IP Address: 192.233.19.3
+Subnet Mask: 255.255.224.0
+Gateway: 192.233.19.1
+```
+
+Biboo (Device)
+```
+Interface fa0
+IP Address: 192.233.19.4
+Subnet Mask: 255.255.224.0
+Gateway: 192.233.19.1
+```
+
+### Subnet A18
+
+HoloEN (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.19.89 255.255.255.252
+no shutdown
+```
+
+Holo-Myth (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.90 255.255.255.252
+no shutdown
+```
+
+### Subnet A19
+
+Holo-Myth (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.12.1 255.255.254.0
+no shutdown
+```
+
+Gura_Ame_Ina (Device)
+```
+Interface fa0
+IP Address: 192.233.12.2
+Subnet Mask: 255.255.254.0
+Gateway: 192.233.12.1
+```
+
+Kiara_Calli (Device)
+```
+Interface fa0
+IP Address: 192.233.12.3
+Subnet Mask: 255.255.254.0
+Gateway: 192.233.12.1
+```
+
+### Subnet A20
+
+Holo-Myth (Router)
+```
+enable
+configure terminal
+interface fa1/0
+ip address 192.233.19.49 255.255.255.248
+no shutdown
+```
+
+Project-Hope (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.50 255.255.255.248
+no shutdown
+```
+
+Holo-Council (Router)
+```
+enable
+configure terminal
+interface fa0/0
+ip address 192.233.19.51 255.255.255.248
+no shutdown
+```
+
+### Subnet A21
+
+Project-Hope (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.19.57 255.255.255.248
+no shutdown
+```
+
+Irys (Device)
+```
+Interface fa0
+IP Address: 192.233.19.58
+Subnet Mask: 255.255.255.248
+Gateway: 192.233.19.57
+```
+
+### Subnet A22
+
+Holo-Council (Router)
+```
+enable
+configure terminal
+interface fa0/1
+ip address 192.233.18.129 255.255.255.192
+no shutdown
+```
+
+Kronii_Mumei (Device)
+```
+Interface fa0
+IP Address: 192.233.18.130
+Subnet Mask: 255.255.255.192
+Gateway: 192.233.18.129
+```
+
+Bae_Fauna (Device)
+```
+Interface fa0
+IP Address: 192.233.18.131
+Subnet Mask: 255.255.255.192
+Gateway: 192.233.18.129
+```
+
 
 
 
