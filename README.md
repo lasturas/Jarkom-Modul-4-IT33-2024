@@ -22,6 +22,8 @@
    - [Tabel Penggabungan](#tabel-penggabungan)
    - [Tree GNS](#tree-gns)
    - [Pembagian IP GNS](#pembagian-ip-gns)
+   - [Config GNS](#config-gns)
+   - [Routing GNS](#routing-gns)
 2. [Cisco Packet Tracker](#cisco-packet-tracker)
    - [Topology](#topology-cpt)
    - [Rute](#rute)
@@ -635,6 +637,9 @@ iface eth0 inet static
     netmask 255.255.255.128
     gateway 192.233.10.1
 ```
+
+## Routing GNS
+
 
 
 # Cisco Packet Tracker
