@@ -31,6 +31,8 @@
    - [Pembagian Area Subnet](#pembagian-area-subnet)
    - [Pembagian IP](#pembagian-ip)
    - [Tree](#tree)
+   - [Konfigurasi IP](#konfigurasi-ip)
+   - [Konfigurasi Routing](#konfigurasi-routing)
 
 # Sheets IP
 Untuk seluruh data dan tabel yang ada di repo ini dapat dilihat di dalam [link](https://docs.google.com/spreadsheets/d/1CGjlsSmBJOj25mW5FXu7kipPXtMJE57o6BJfyq0m8hg/edit?gid=580767165#gid=580767165) berikut 
