@@ -24,6 +24,7 @@
    - [Pembagian IP GNS](#pembagian-ip-gns)
    - [Config GNS](#config-gns)
    - [Routing GNS](#routing-gns)
+   - [Dokumentasi Ping](#dokumentasi-ping)
 2. [Cisco Packet Tracker](#cisco-packet-tracker)
    - [Topology](#topology-cpt)
    - [Rute](#rute)
@@ -640,42 +641,438 @@ iface eth0 inet static
 
 ## Routing GNS
 
-## Dokumentasi 
-### irys --> mio 
+• Hololive 
+```
+#routing sebelah kiri
+#routing A18 holo-en  
+post-up route add -net 192.234.4.0 netmask 255.255.255.252 gw 192.234.16.2
+
+#routing A19 gurame cali  
+post-up route add -net 192.234.0.0 netmask 255.255.254.0 gw 192.234.16.2
+
+#routing A16 holo advent  
+post-up route add -net 192.234.8.32 netmask 255.255.255.252 gw 192.234.16.2
+
+#routing A17 fuwa, shiori, bibo  
+post-up route add -net 192.234.8.0 netmask 255.255.255.224 gw 192.234.16.2
+
+#routing A20 project hope  
+post-up route add -net 192.234.2.128 netmask 255.255.255.248 gw 192.234.16.2
+
+#routing A21 irys  
+post-up route add -net 192.234.2.64 netmask 255.255.255.248 gw 192.234.16.2
+
+#routing A22 kroni, bae fauna  
+post-up route add -net 192.234.2.0 netmask 255.255.255.192 gw 192.234.16.2
+
+
+#routing sebelah kanan
+#routing A2 area15  
+post-up route add -net 192.233.132.0 netmask 255.255.255.252 gw 192.233.160.2
+
+#routing A4 holoro  
+post-up route add -net 192.233.144.64 netmask 255.255.255.252 gw 192.233.160.2
+
+#routing A6 holohero  
+post-up route add -net 192.233.130.0 netmask 255.255.255.252 gw 192.233.160.2
+
+#routing A3 risu, mona, iofi  
+post-up route add -net 192.233.128.0 netmask 255.255.252.0 gw 192.233.160.2
+
+#routing A5 olie, anya, reine  
+post-up route add -net 192.233.144.0 netmask 255.255.255.192 gw 192.233.160.2
+
+#routing A7 zeta, kaela, kobo  
+post-up route add -net 192.233.136.0 netmask 255.255.254.0 gw 192.233.160.2
+
+
+#routing bawah 
+#routing A9 gen:0, dev-is  
+post-up route add -net 192.233.32.0 netmask 255.255.255.248 gw 192.233.64.2
+
+#routing A10 ririka, ao, hajime
+post-up route add -net 192.233.16.0 netmask 255.255.255.240 gw 192.233.64.2
+
+#routing A11 micomet, sora 
+post-up route add -net 192.233.0.0 netmask 255.255.248.0 gw 192.233.64.2
+
+#routing A14 fbk, aki
+post-up route add -net 192.233.8.0 netmask 255.255.254.0 gw 192.233.64.2
+
+#routing A12 gamers
+post-up route add -net 192.233.10.128 netmask 255.255.255.252 gw 192.233.64.2
+
+#routing A13 korone, okayu, mio 
+post-up route add -net 192.233.10.0 netmask 255.255.255.128 gw 192.233.64.2
+```
+
+
+• Holo-EN 
+```
+#routing A19 gurame calli  
+post-up route add -net 192.234.0.0 netmask 255.255.254.0 gw 192.234.4.2
+
+#routing A17 fuwa, shiori, bibo  
+post-up route add -net 192.234.8.0 netmask 255.255.255.224 gw 192.234.8.34
+
+#routing A20 project hope  
+post-up route add -net 192.234.2.128 netmask 255.255.255.248 gw 192.234.4.2
+
+#routing A21 irys  
+post-up route add -net 192.234.2.64 netmask 255.255.255.248 gw 192.234.4.2
+
+#routing A22 kroni, bae fauna  
+post-up route add -net 192.234.2.0 netmask 255.255.255.192 gw 192.234.4.2
+```
+
+• Holo-Myth
+```
+#routing A15 hololive  
+post-up route add -net 192.234.16.0 netmask 255.255.255.252 gw 192.234.4.1
+
+#routing A21 irys  
+post-up route add -net 192.234.2.64 netmask 255.255.255.248 gw 192.234.2.130
+
+#routing A22 kroni, bae fauna  
+post-up route add -net 192.234.2.0 netmask 255.255.255.192 gw 192.234.2.131
+```
+
+• Project-Hope 
+```
+#routing A15 hololive  
+post-up route add -net 192.234.16.0 netmask 255.255.255.252 gw 192.234.4.1
+
+#routing A18 holo-en  
+post-up route add -net 192.234.4.0 netmask 255.255.255.252 gw 192.234.2.129
+```
+
+• Holo-Council
+```
+#routing A15 hololive  
+post-up route add -net 192.234.16.0 netmask 255.255.255.252 gw 192.234.4.1
+
+#routing A18 holo-en  
+post-up route add -net 192.234.4.0 netmask 255.255.255.252 gw 192.234.2.129
+```
+
+• HoloAdvent
+```
+#routing A15 hololive  
+post-up route add -net 192.234.16.0 netmask 255.255.255.252 gw 192.234.8.33
+```
+
+• Holo-ID
+```
+#routing A15 hololive
+post-up route add -net 192.233.16.0 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A18 holo-en
+post-up route add -net 192.234.4.0 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A19 gurame calli
+post-up route add -net 192.234.0.0 netmask 255.255.254.0 gw 192.233.160.1
+
+#routing A16 holo-advent
+post-up route add -net 192.234.8.32 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A17 fuwa, shiori, bibo
+post-up route add -net 192.234.8.0 netmask 255.255.255.224 gw 192.233.160.1
+
+#routing A20 project-hope, holo-council
+post-up route add -net 192.234.2.128 netmask 255.255.255.248 gw 192.233.160.1
+
+#routing A21 irys
+post-up route add -net 192.234.2.64 netmask 255.255.255.248 gw 192.233.160.1
+
+#routing A22 kroni, bae fauna
+post-up route add -net 192.234.2.0 netmask 255.255.255.192 gw 192.233.160.1
+
+#routing A3 risu, mona, iofi  
+post-up route add -net 192.233.128.0 netmask 255.255.252.0 gw 192.233.132.2
+
+#routing A5 olie, anya, reine  
+post-up route add -net 192.233.144.0 netmask 255.255.255.192 gw 192.233.144.66
+
+#routing A7 zeta, kaela, kobo  
+post-up route add -net 192.233.136.0 netmask 255.255.254.0 gw 192.233.130.2
+
+#routing A9 gurame calli
+post-up route add -net 192.233.32.0 netmask 255.255.255.248 gw 192.233.160.1
+
+#routing A10 ririka, ao, hajime
+post-up route add -net 192.233.16.0 netmask 255.255.255.240 gw 192.233.160.1
+
+#routing A11 micomet, sora 
+post-up route add -net 192.233.0.0 netmask 255.255.248.0 gw 192.233.160.1
+
+#routing A12 gamers 
+post-up route add -net 192.233.10.128 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A13 korone, okayu, mio
+post-up route add -net 192.233.10.0 netmask 255.255.255.128 gw 192.233.160.1
+
+#routing A14 fbk, aki
+post-up route add -net 192.233.8.0 netmask 255.255.254.0 gw 192.233.160.1
+
+```
+
+• AREA15 
+```
+#routing A15 hololive
+post-up route add -net 192.233.16.0 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A18 holo-en
+post-up route add -net 192.234.4.0 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A19 gurame calli
+post-up route add -net 192.234.0.0 netmask 255.255.254.0 gw 192.233.160.1
+
+#routing A16 holo-advent
+post-up route add -net 192.234.8.32 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A17 fuwa, shiori, bibo
+post-up route add -net 192.234.8.0 netmask 255.255.255.224 gw 192.233.160.1
+
+#routing A20 project-hope, holo-council
+post-up route add -net 192.234.2.128 netmask 255.255.255.248 gw 192.233.160.1
+
+#routing A21 irys
+post-up route add -net 192.234.2.64 netmask 255.255.255.248 gw 192.233.160.1
+
+#routing A22 kroni, bae fauna
+post-up route add -net 192.234.2.0 netmask 255.255.255.192 gw 192.233.160.1
+
+#routing A1 hololive  
+post-up route add -net 192.233.160.0 netmask 255.255.255.252 gw 192.233.132.1
+
+#routing A9 gurame calli
+post-up route add -net 192.233.32.0 netmask 255.255.255.248 gw 192.233.132.1
+
+#routing A10 ririka, ao, hajime
+post-up route add -net 192.233.16.0 netmask 255.255.255.240 gw 192.233.132.1
+
+#routing A11 micomet, sora 
+post-up route add -net 192.233.0.0 netmask 255.255.248.0 gw 192.233.132.1
+
+#routing A12 gamers
+post-up route add -net 192.233.10.128 netmask 255.255.255.252 gw 192.233.132.1
+
+#routing A13 korone, okayu, mio
+post-up route add -net 192.233.10.0 netmask 255.255.255.128 gw 192.233.132.1
+
+#routing A14 fbk, aki
+post-up route add -net 192.233.8.0 netmask 255.255.254.0 gw 192.233.132.1
+
+```
+
+• Holoro 
+```
+#routing A15 hololive
+post-up route add -net 192.233.16.0 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A18 holo-en
+post-up route add -net 192.234.4.0 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A19 gurame calli
+post-up route add -net 192.234.0.0 netmask 255.255.254.0 gw 192.233.160.1
+
+#routing A16 holo-advent
+post-up route add -net 192.234.8.32 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A17 fuwa, shiori, bibo
+post-up route add -net 192.234.8.0 netmask 255.255.255.224 gw 192.233.160.1
+
+#routing A20 project-hope, holo-council
+post-up route add -net 192.234.2.128 netmask 255.255.255.248 gw 192.233.160.1
+
+#routing A21 irys
+post-up route add -net 192.234.2.64 netmask 255.255.255.248 gw 192.233.160.1
+
+#routing A22 kroni, bae fauna
+post-up route add -net 192.234.2.0 netmask 255.255.255.192 gw 192.233.160.1
+
+#routing A1 hololive  
+post-up route add -net 192.233.160.0 netmask 255.255.255.252 gw 192.233.144.65
+
+#routing A9 gurame calli
+post-up route add -net 192.233.32.0 netmask 255.255.255.248 gw 192.233.144.65
+
+#routing A10 ririka, ao, hajime
+post-up route add -net 192.233.16.0 netmask 255.255.255.240 gw 192.233.144.65
+
+#routing A11 micomet, sora 
+post-up route add -net 192.233.0.0 netmask 255.255.248.0 gw 192.233.144.65
+
+#routing A12 gamers
+post-up route add -net 192.233.10.128 netmask 255.255.255.252 gw 192.233.144.65
+
+#routing A13 korone, okayu, mio
+post-up route add -net 192.233.10.0 netmask 255.255.255.128 gw 192.233.144.65
+
+#routing A14 fbk, aki
+post-up route add -net 192.233.8.0 netmask 255.255.254.0 gw 192.233.144.65
+
+```
+
+• Holoh3ro
+```
+#routing A15 hololive
+post-up route add -net 192.233.16.0 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A18 holo-en
+post-up route add -net 192.234.4.0 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A19 gurame calli
+post-up route add -net 192.234.0.0 netmask 255.255.254.0 gw 192.233.160.1
+
+#routing A16 holo-advent
+post-up route add -net 192.234.8.32 netmask 255.255.255.252 gw 192.233.160.1
+
+#routing A17 fuwa, shiori, bibo
+post-up route add -net 192.234.8.0 netmask 255.255.255.224 gw 192.233.160.1
+
+#routing A20 project-hope, holo-council
+post-up route add -net 192.234.2.128 netmask 255.255.255.248 gw 192.233.160.1
+
+#routing A21 irys
+post-up route add -net 192.234.2.64 netmask 255.255.255.248 gw 192.233.160.1
+
+#routing A22 kroni, bae fauna
+post-up route add -net 192.234.2.0 netmask 255.255.255.192 gw 192.233.160.1
+
+#routing A1 hololive  
+post-up route add -net 192.233.160.0 netmask 255.255.255.252 gw 192.233.130.1
+
+#routing A9 gurame calli
+post-up route add -net 192.233.32.0 netmask 255.255.255.248 gw 192.233.130.1
+
+#routing A10 ririka, ao, hajime
+post-up route add -net 192.233.16.0 netmask 255.255.255.240 gw 192.233.130.1
+
+#routing A11 micomet, sora 
+post-up route add -net 192.233.0.0 netmask 255.255.248.0 gw 192.233.130.1
+
+#routing A12 gamers 
+post-up route add -net 192.233.10.128 netmask 255.255.255.252 gw 192.233.130.1
+
+#routing A13 korone, okayu, mio
+post-up route add -net 192.233.10.0 netmask 255.255.255.128 gw 192.233.130.1
+
+#routing A14 fbk, aki
+post-up route add -net 192.233.8.0 netmask 255.255.254.0 gw 192.233.130.1
+
+```
+
+• Holo-JP
+```
+#routing A10 ririka, ao, hajime
+post-up route add -net 192.233.16.0 netmask 255.255.255.240 gw 192.233.32.2
+
+#routing A11 micomet, sora 
+post-up route add -net 192.233.0.0 netmask 255.255.248.0 gw 192.233.32.3
+
+#routing A12 gamers
+post-up route add -net 192.233.10.128 netmask 255.255.255.252 gw 192.233.32.3
+
+#routing A13 korone, okayu, mio 
+post-up route add -net 192.233.10.0 netmask 255.255.255.128 gw 192.233.32.3
+
+#routing A14 fbk, aki
+post-up route add -net 192.233.8.0 netmask 255.255.254.0 gw 192.233.32.3
+
+```
+
+• DEV_IS
+```
+#routing A8 hololive
+post-up route add -net 192.233.64.0 netmask 255.255.255.252 gw 192.233.32.1
+
+#routing A11 micomet, sora 
+post-up route add -net 192.233.0.0 netmask 255.255.248.0 gw 192.233.32.3
+
+#routing A12 gamers
+post-up route add -net 192.233.10.128 netmask 255.255.255.252 gw 192.233.32.3
+
+#routing A13 korone, okayu, mio 
+post-up route add -net 192.233.10.0 netmask 255.255.255.128 gw 192.233.32.3
+
+#routing A14 fbk, aki
+post-up route add -net 192.233.8.0 netmask 255.255.254.0 gw 192.233.32.3
+```
+
+• GEN:0
+```
+#routing A8 hololive
+post-up route add -net 192.233.64.0 netmask 255.255.255.252 gw 192.233.32.1
+
+#routing A10 ririka, ao, hajime
+post-up route add -net 192.233.16.0 netmask 255.255.255.240 gw 192.233.32.2
+
+#routing A12 gamers
+post-up route add -net 192.233.10.128 netmask 255.255.255.252 gw 192.233.0.4
+
+#routing A13 korone, okayu, mio 
+post-up route add -net 192.233.10.0 netmask 255.255.255.128 gw 192.233.0.4
+
+#routing A14 fbk, aki
+post-up route add -net 192.233.8.0 netmask 255.255.254.0 gw 192.233.0.4
+```
+
+• GEN:1
+```
+#routing A8 hololive
+post-up route add -net 192.233.64.0 netmask 255.255.255.252 gw 192.233.32.1
+
+#routing A13 korone, okayu, mio 
+post-up route add -net 192.233.10.0 netmask 255.255.255.128 gw 192.233.10.130
+```
+
+• GAMERS
+```
+#routing A8 hololive
+post-up route add -net 192.233.64.0 netmask 255.255.255.252 gw 192.233.32.1
+
+#routing A11 micomet, sora 
+post-up route add -net 192.233.0.0 netmask 255.255.248.0 gw 192.233.0.1
+```
+
+
+## Dokumentasi Ping
+### Irys --> Mio 
 ![image](https://github.com/user-attachments/assets/226eb961-d128-4cde-b7ec-f726f53ef75e)
 
-### mio --> irys 
+### Mio --> Irys 
 ![image](https://github.com/user-attachments/assets/2d4cbe5b-620f-4c32-8c08-25c7a8f6de3d)
 
 
-### kroni --> zeta
+### Kronii_Mumei --> Zeta
 ![image](https://github.com/user-attachments/assets/056dfb2d-8a0c-42f4-9f7e-252a9794ac2c)
 
-### zeta --> kroni 
+### Zeta --> Kronii_Mumei
 ![image](https://github.com/user-attachments/assets/f39125c1-f0fc-4846-8c8b-06377a075103)
 
-### fuwamoco --> gamers 
+### FuwaMoco --> Gamers 
 ![image](https://github.com/user-attachments/assets/529ddf81-f3ba-4cd5-b203-4975f06ce449)
 
-### gamers --> fuwamoco 
+### Gamers --> FuwaMoco 
 ![image](https://github.com/user-attachments/assets/82ed8c5c-e3f9-4795-b4a1-b22f0c8e6893)
 
-### micomet --> holoro 
+### MiComet --> Holoro 
 ![image](https://github.com/user-attachments/assets/3f9411e3-ac0e-49ad-96f3-cc54fcbde3a1)
 
-### holoro --> micomet 
+### Holoro --> MiComet 
 ![image](https://github.com/user-attachments/assets/428e7d3d-5824-4dbe-9f0f-3d2a9387ddce)
 
-### holoadvent --> holoh3ro 
+### HoloAdvent --> Holoh3ro 
 ![image](https://github.com/user-attachments/assets/8ec24ec3-f066-488c-9729-f8f926ae0c42)
 
-### holoh3ro --> holoadvent 
+### Holoh3ro --> HoloAdvent 
 ![image](https://github.com/user-attachments/assets/54fb108d-cb41-46de-8459-0a6193ad1c7e)
 
-### holoid --> devis 
+### Holo-ID --> DEV_IS 
 ![image](https://github.com/user-attachments/assets/8752cedc-e3fc-4c46-8a24-d1f846ec3da1)
 
-### devis --> holoid 
+### DEV_IS --> Holo-ID 
 ![image](https://github.com/user-attachments/assets/ada01335-abbb-4f12-8ad6-09d779a80cf0)
 
 
