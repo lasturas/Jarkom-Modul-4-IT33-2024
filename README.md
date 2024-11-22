@@ -1244,7 +1244,191 @@ IP Address: 192.233.18.131
 Subnet Mask: 255.255.255.192
 Gateway: 192.233.18.129
 ```
+## Konfigurasi Routing
 
+### Sisi Kanan (Holo-ID)
+
+Hololive
+```
+enable
+configure terminal
+ip route 192.233.19.92 255.255.255.252 192.233.19.74
+ip route 192.233.8.0 255.255.252.0 192.233.19.74
+ip route 192.233.19.96 255.255.255.252 192.233.19.74
+ip route 192.233.18.192 255.255.255.192 192.233.19.74
+ip route 192.233.19.100 255.255.255.252 192.233.19.74
+ip route 192.233.16.0 255.255.254.0 192.233.19.74
+do write
+```
+
+Holo-ID
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.73
+ip route 192.233.8.0 255.255.252.0 192.233.19.94
+ip route 192.233.18.192 255.255.255.192 192.233.19.98
+ip route 192.233.16.0 255.255.254.0 192.233.19.102
+do write
+```
+
+AREA15
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.93
+do write
+```
+
+holoro
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.97
+do write
+```
+
+holoh3ro
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.101
+do write
+```
+
+### Sisi Bawah (HoloJP)
+
+Hololive
+```
+enable
+configure terminal
+ip route 192.233.19.64 255.255.255.248 192.233.19.106
+ip route 192.233.19.32 255.255.255.240 192.233.19.106
+ip route 192.233.0.0 255.255.248.0 192.233.19.106
+ip route 192.233.14.0 255.255.254.0 192.233.19.106
+ip route 192.233.19.76 255.255.255.252 192.233.19.106
+ip route 192.233.18.0 255.255.255.128 192.233.19.106
+do write
+```
+
+Holo-JP
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.105
+ip route 192.233.19.32 255.255.255.240 192.233.19.66
+ip route 192.233.0.0 255.255.248.0 192.233.19.67
+ip route 192.233.14.0 255.255.254.0 192.233.19.67
+ip route 192.233.19.76 255.255.255.252 192.233.19.67
+ip route 192.233.18.0 255.255.255.128 192.233.19.67
+do write
+```
+
+DEV_IS
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.65
+ip route 192.233.0.0 255.255.248.0 192.233.19.67
+ip route 192.233.14.0 255.255.254.0 192.233.19.67
+ip route 192.233.19.76 255.255.255.252 192.233.19.67
+ip route 192.233.18.0 255.255.255.128 192.233.19.67
+do write
+```
+
+GEN:0
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.65
+ip route 192.233.19.32 255.255.255.240 192.233.19.66
+ip route 192.233.14.0 255.255.254.0 192.233.0.2
+ip route 192.233.19.76 255.255.255.252 192.233.0.2
+ip route 192.233.18.0 255.255.255.128 192.233.0.2
+do write
+```
+
+GEN:1
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.0.1
+ip route 192.233.18.0 255.255.255.128 192.233.19.78
+do write
+```
+
+GAMERS
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.77
+do write
+```
+
+### Sisi Kiri (HoloEN)
+
+Hololive
+```
+enable
+configure terminal
+ip route 192.233.19.84 255.255.255.252 192.233.19.82
+ip route 192.233.19.0 255.255.255.224 192.233.19.82
+ip route 192.233.19.88 255.255.255.252 192.233.19.82
+ip route 192.233.12.0 255.255.254.0 192.233.19.82
+ip route 192.233.19.48 255.255.255.248 192.233.19.82
+ip route 192.233.19.56 255.255.255.248 192.233.19.82
+ip route 192.233.18.128 255.255.255.192 192.233.19.82
+do write
+```
+
+HoloEN
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.81
+ip route 192.233.19.0 255.255.255.224 192.233.19.86
+ip route 192.233.12.0 255.255.254.0 192.233.19.90
+ip route 192.233.19.48 255.255.255.248 192.233.19.90
+ip route 192.233.19.56 255.255.255.248 192.233.19.90
+ip route 192.233.18.128 255.255.255.192 192.233.19.90
+do write
+```
+
+HoloAdvent
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.85
+do write
+```
+
+Holo-Myth
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.89
+ip route 192.233.19.56 255.255.255.248 192.233.19.50
+ip route 192.233.18.128 255.255.255.192 192.233.19.51
+do write
+```
+
+Project-Hope
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.49
+ip route 192.233.18.128 255.255.255.192 192.233.19.51
+do write
+```
+
+Holo-Council
+```
+enable
+configure terminal
+ip route 0.0.0.0 0.0.0.0 192.233.19.49
+ip route 192.233.19.56 255.255.255.248 192.233.19.50
+do write
+```
 
 
 
