@@ -654,9 +654,29 @@ iface eth0 inet static
 ### zeta --> kroni 
 ![image](https://github.com/user-attachments/assets/f39125c1-f0fc-4846-8c8b-06377a075103)
 
+### fuwamoco --> gamers 
+![image](https://github.com/user-attachments/assets/529ddf81-f3ba-4cd5-b203-4975f06ce449)
 
+### gamers --> fuwamoco 
+![image](https://github.com/user-attachments/assets/82ed8c5c-e3f9-4795-b4a1-b22f0c8e6893)
 
+### micomet --> holoro 
+![image](https://github.com/user-attachments/assets/3f9411e3-ac0e-49ad-96f3-cc54fcbde3a1)
 
+### holoro --> micomet 
+![image](https://github.com/user-attachments/assets/428e7d3d-5824-4dbe-9f0f-3d2a9387ddce)
+
+### holoadvent --> holoh3ro 
+![image](https://github.com/user-attachments/assets/8ec24ec3-f066-488c-9729-f8f926ae0c42)
+
+### holoh3ro --> holoadvent 
+![image](https://github.com/user-attachments/assets/54fb108d-cb41-46de-8459-0a6193ad1c7e)
+
+### holoid --> devis 
+![image](https://github.com/user-attachments/assets/8752cedc-e3fc-4c46-8a24-d1f846ec3da1)
+
+### devis --> holoid 
+![image](https://github.com/user-attachments/assets/ada01335-abbb-4f12-8ad6-09d779a80cf0)
 
 
 # Cisco Packet Tracker
