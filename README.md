@@ -641,6 +641,13 @@ iface eth0 inet static
 ## Routing GNS
 
 ## Dokumentasi 
+### irys --> mio 
+![image](https://github.com/user-attachments/assets/226eb961-d128-4cde-b7ec-f726f53ef75e)
+
+### mio --> irys 
+![image](https://github.com/user-attachments/assets/2d4cbe5b-620f-4c32-8c08-25c7a8f6de3d)
+
+
 ### kroni --> zeta
 ![image](https://github.com/user-attachments/assets/056dfb2d-8a0c-42f4-9f7e-252a9794ac2c)
 
