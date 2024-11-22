@@ -640,6 +640,16 @@ iface eth0 inet static
 
 ## Routing GNS
 
+## Dokumentasi 
+### kroni --> zeta
+![image](https://github.com/user-attachments/assets/056dfb2d-8a0c-42f4-9f7e-252a9794ac2c)
+
+### zeta --> kroni 
+![image](https://github.com/user-attachments/assets/f39125c1-f0fc-4846-8c8b-06377a075103)
+
+
+
+
 
 
 # Cisco Packet Tracker
